@@ -1,0 +1,27 @@
+$(document).ready(
+    function(){
+        $("#hideshow").click(function () {
+            $("#home").show("slow");
+            $("#aboutus").hide("slow");
+            $("#lectures").hide("slow");
+        });
+    });
+
+$(document).ready(
+    function(){
+        $("#hideshow1").click(function () {
+            $("#aboutus").show("slow");
+            $("#lectures").hide("slow");
+            $("#home").hide("slow");
+        });
+    });
+
+$(document).ready(
+    function(){
+        $("#hideshow2").click(function () {
+            $("#lectures").show("slow");
+            $("#aboutus").hide("slow");
+            $("#home").hide("slow");
+        });
+    });
+
